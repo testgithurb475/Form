@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body bgcolor="#fce4e4"> 
+
+    <center>
+        <h1 style="font-size: 24pt; margin-top: 20px; margin-bottom: 20px;">
+            <b>Student Registration Form</b>
+        </h1>
+
+        <form>
+
+            <table border="0" cellpadding="10" cellspacing="0" width="600">
+            
+                <tr>
+                    <td align="right" width="30%"><b>Roll no. :</b></td>
+                    <td align="left" width="70%">
+                        <input type="text" size="40" name="roll_no">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><b>Student name :</b></td>
+                    <td align="left">
+                        <input type="text" size="20" name="first_name" placeholder="First Name">
+                        <input type="text" size="20" name="last_name" placeholder="Last Name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><b>Father's name :</b></td>
+                    <td align="left">
+                        <input type="text" size="40" name="father_name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><b>Date of birth :</b></td>
+                    <td align="left">
+                        <select name="dob_day">
+                            <option value="">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        
+                        <select name="dob_month">
+                            <option value="">Month</option>
+                            <option value="01">January</option>
+                            <option value="02">February</option>
+                            <option value="03">March</option>
+                            <option value="04">April</option>
+                            <option value="05">May</option>
+                            <option value="06">June</option>
+                            <option value="07">July</option>
+                            <option value="08">August</option>
+                            <option value="09">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                        
+                        <select name="dob_year">
+                            <option value="">Year</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                        </select>
+                        
+                        (DD-MM-YYYY)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><b>Mobile no. :</b></td>
+                    <td align="left">
+                        <input type="text" size="5" value="+92 -" readonly>
+                        <input type="tel" size="30" name="mobile_no" placeholder="XX-XXXX-XXX">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><b>Email id :</b></td>
+                    <td align="left">
+                        <input type="email" size="40" name="email_id">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><b>Password :</b></td>
+                    <td align="left">
+                        <input type="password" size="40" name="password">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><b>Gender :</b></td>
+                    <td align="left">
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><b>Department :</b></td>
+                    <td align="left">
+                        <input type="checkbox" name="dept_cse" value="cse"> CSE
+                        <input type="checkbox" name="dept_it" value="it"> IT
+                        <input type="checkbox" name="dept_ece" value="ece"> ECE
+                        <input type="checkbox" name="dept_civil" value="civil"> Civil
+                        <input type="checkbox" name="dept_mech" value="mech"> Mech
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right"><b>Course :</b></td>
+                    <td align="left">
+                        <select name="course">
+                            <option value="" disabled selected>----- Select Current Course's -----</option>
+                            <option value="btech">B.Tech</option>
+                            <option value="mtech">M.Tech</option>
+                            <option value="bsc">B.Sc</option>
+                            <option value="msc">M.Sc</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><b>Student photo :</b></td>
+                    <td align="left">
+                        <input type="file" name="student_photo">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><b>City :</b></td>
+                    <td align="left">
+                        <input type="text" size="40" name="city">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right" valign="top"><b>Address :</b></td>
+                    <td align="left">
+                        <textarea name="address" rows="4" cols="42"></textarea>
+                    </td>
+                </tr>
+
+            </table>
+
+            <br>
+            <input type="submit" value="Register">
+            <br><br>
+
+        </form>
+    </center>
+
+</body>
+</html>
